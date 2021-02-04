@@ -4,10 +4,10 @@ namespace Qyhrpc\RPC\Core;
 
 use ErrorException;
 use Exception;
-use Qyhrpc\BytesIO;
-use Qyhrpc\Reader;
-use Qyhrpc\Tags;
-use Qyhrpc\Writer;
+use Hprose\BytesIO;
+use Hprose\Reader;
+use Hprose\Tags;
+use Hprose\Writer;
 use Throwable;
 
 class DefaultServiceCodec implements ServiceCodec {

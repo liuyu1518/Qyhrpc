@@ -1,0 +1,15 @@
+{
+    "name": "qyhrpc/examples",
+    "description": "examples of qyhrpc",
+    "authors": [
+        {
+            "name": "Liu Yu",
+            "email": "liuyu@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-hprose": ">=1.8.0",
+        "hprose/hprose": "dev-master"
+    }
+}
